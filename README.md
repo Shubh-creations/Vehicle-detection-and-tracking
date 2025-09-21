@@ -15,12 +15,19 @@ This project implements a **real-time vehicle detection and tracking system** us
 ## ✨ Features
 
 ✅ GPU-accelerated inference (CUDA) - 3-4x performance boost
+
 ✅ Advanced vehicle tracking - Prevents double counting
+
 ✅ Real-time FPS monitoring - Performance metrics
+
 ✅ Enhanced visualization - Rich UI with analytics
+
 ✅ Configurable parameters - JSON-based settings
+
 ✅ Edge device optimization - Raspberry Pi & Jetson Nano ready
+
 ✅ Comprehensive documentation - Full setup and usage guides
+
 ✅ Performance testing - Built-in benchmarking tools
 
 ---
