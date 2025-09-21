@@ -1,0 +1,50 @@
+{
+    "cascade_file": "cars.xml",
+    "camera_index": 1,
+    "resize_width": 640,
+    "scale_factor": 1.1,
+    "min_neighbors": 3,
+    "min_size": [30, 30],
+    "max_disappeared": 30,
+    "max_distance": 50,
+    "confidence_threshold": 0.3,
+    "enable_gpu": true,
+    "enable_tracking": true,
+    "enable_analytics": true,
+    "save_video": false,
+    "output_file": "traffic_output.mp4",
+    "performance_monitoring": {
+        "fps_history_size": 30,
+        "processing_time_history_size": 30,
+        "detection_history_size": 300
+    },
+    "tracking": {
+        "max_track_history": 10,
+        "trail_color": [255, 0, 0],
+        "trail_thickness": 2
+    },
+    "visualization": {
+        "show_confidence": true,
+        "show_tracking_id": true,
+        "show_traffic_status": true,
+        "overlay_transparency": 0.7,
+        "font_scale": 0.5,
+        "font_thickness": 1
+    },
+    "edge_device_optimization": {
+        "raspberry_pi": {
+            "resize_width": 320,
+            "scale_factor": 1.2,
+            "min_neighbors": 4,
+            "enable_gpu": false,
+            "fps_target": 15
+        },
+        "jetson_nano": {
+            "resize_width": 480,
+            "scale_factor": 1.15,
+            "min_neighbors": 3,
+            "enable_gpu": true,
+            "fps_target": 25
+        }
+    }
+}
